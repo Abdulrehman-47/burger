@@ -1,0 +1,172 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: green;
+    border: 1px solid green;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(230, 96, 6);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+/* Modal content styles */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Image styles */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Heading and button margin */
+h2, button {
+    margin: 15px 0;
+}
+
+/* Close button styles */
+.close,
+.close:link,
+.close:visited {
+    color: #ccc;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 2.5rem;
+    display: inline-block;
+    line-height: 1;
+    transition: all 0.2s;
+}
+
+.close:hover {
+    color: rgb(230, 215, 6);
+}
+
+/* Modal open style */
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modal target content style */
+.modal:target .content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 95%;
+    }
+    .close {
+        font-size: 2rem;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .content {
+        width: 85%;
+    }
+    .close {
+        font-size: 2.2rem;
+    }
+    .btn {
+        font-size: 1.1rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .content {
+        width: 75%;
+    }
+    .close {
+        font-size: 2.5rem;
+    }
+    .btn {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .content {
+        width: 70%;
+    }
+    .close {
+        font-size: 2.8rem;
+    }
+    .btn {
+        font-size: 1.3rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content {
+        width: 60%;
+    }
+    .close {
+        font-size: 3rem;
+    }
+    .btn {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
