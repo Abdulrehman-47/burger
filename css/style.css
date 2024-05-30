@@ -896,6 +896,7 @@ h1 {
     font-size: 2.5em; /* Adjust heading size */
   }
   .hero-text h2 {
+     color: rgb(255, 0, 0);
     margin: 20px 0; /* Reduce margins */
   }
   .hero-image {
@@ -927,6 +928,7 @@ h1 {
     font-size: 3em; /* Adjust heading size */
   }
   .hero-text h2 {
+    color: rgb(255, 0, 0);
     margin: 20px 0; /* Adjust margins */
   }
   .hero-image {
@@ -957,6 +959,7 @@ h1 {
     font-size: 4em; /* Adjust heading size */
   }
   .hero-text h2 {
+    color: rgb(255, 0, 0);
     margin-left: 40px; /* Adjust margins */
     margin-top: 30px;
   }
@@ -989,6 +992,7 @@ h1 {
     font-size: 4.5em; /* Adjust heading size */
   }
   .hero-text h2 {
+    color: rgb(255, 0, 0);
     margin-left: 60px; /* Adjust margins */
     margin-top: 40px;
   }
@@ -1022,6 +1026,7 @@ h1 {
     font-size: 5em; /* Keep original heading size */
   }
   .hero-text h2 {
+    
     margin-left: 80px; /* Keep original margins */
     margin-top: 45px;
   }
