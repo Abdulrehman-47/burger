@@ -175,7 +175,7 @@ html {
 }
 
 body {
-  cursor: url('/assets/images/burgur.png'), auto; /* Add the path to your burger cursor image */
+  cursor: url('/images/burgur.png'), auto; /* Add the path to your burger cursor image */
   background-color: var(--eerie-black-1);
   color: var(--white);
   font-family: var(--fontFamily-dm_sans);
