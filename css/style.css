@@ -771,19 +771,18 @@ h1 {
   .custom-heading {
     font-size: 30px; /* Reduce overall heading size */
     margin-left: 10px; /* Adjust margin */
-  }
-  .custom-heading span:nth-child(1) { font-size: 20px; }
-  .custom-heading span:nth-child(2) { font-size: 24px; }
-  .custom-heading span:nth-child(3) { font-size: 28px; }
-  .custom-heading span:nth-child(4) { font-size: 32px; }
-  .custom-heading span:nth-child(5) { font-size: 34px; }
-  .custom-heading span:nth-child(6) { font-size: 40px; }
-  .custom-heading span:nth-child(7) { font-size: 40px; }
-  .custom-heading span:nth-child(8) { font-size: 34px; }
-  .custom-heading span:nth-child(9) { font-size: 30px; }
-  .custom-heading span:nth-child(10) { font-size: 22px; }
+ }
+  .custom-heading span:nth-child(1) { font-size: 24px; 
+  .custom-heading span:nth-child(2) { font-size: 28px; } 
+  .custom-heading span:nth-child(3) { font-size: 32px; } 
+  .custom-heading span:nth-child(4) { font-size: 36px; } 
+  .custom-heading span:nth-child(5) { font-size: 38px; } 
+  .custom-heading span:nth-child(6) { font-size: 44px; } 
+  .custom-heading span:nth-child(7) { font-size: 44px; } 
+  .custom-heading span:nth-child(8) { font-size: 38px; } 
+  .custom-heading span:nth-child(9) { font-size: 34px; } 
+  .custom-heading span:nth-child(10) { font-size: 26px; } 
 }
-
 
 
 
