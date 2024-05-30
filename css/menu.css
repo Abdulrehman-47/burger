@@ -103,6 +103,18 @@ h2, button {
     transform: translate(-50%, -50%) scale(1);
 }
 
+/* Keyframes for pop-up animation */
+@keyframes popup {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 /* Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
