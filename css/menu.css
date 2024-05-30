@@ -65,6 +65,7 @@ body {
 img {
     width: 100%;
     height: auto;
+    animation: popup 0.5s ease-in-out;
 }
 
 /* Heading and button margin */
